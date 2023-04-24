@@ -2,7 +2,7 @@ import axios from "axios";
 import { getUserFromLocalStorage } from "./localstorage";
 
 const customFetch = axios.create({
-  baseURL: "https://loginregister-b7an.onrender.com",
+  baseURL: "https://api-find-job-production.up.railway.app/api/v1/",
 });
 
 customFetch.interceptors.request.use(
