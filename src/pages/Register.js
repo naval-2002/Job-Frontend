@@ -70,7 +70,7 @@ function Register() {
         />
         <FormRow
           name="password"
-          type="text"
+          type="password"
           value={value.password}
           handlechange={handlechange}
         />
