@@ -82,7 +82,7 @@ function Register() {
         >
           {isLoading ? "Loading..." : "Submit"}
         </button>
-        <button
+        {/* <button
           type="button"
           className="btn btn-block btn-hipster"
           disabled={isLoading}
@@ -91,7 +91,7 @@ function Register() {
           }}
         >
           {isLoading ? "loading..." : "demo"}
-        </button>
+        </button> */}
         <p>
           {value.isMember ? "Not a member yet?" : "Already a member"}
           <button className="member-btn" onClick={(e) => togglemember(e)}>
